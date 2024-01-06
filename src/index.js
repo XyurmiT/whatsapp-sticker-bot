@@ -8,7 +8,7 @@ async function start(client) {
   client.onMessage(async (msg) => {
     // console.log(msg);
     if (msg.bo@dy === "!cek") {
-      client.sendText(msg.from, "_👋 Hello! @zakuradev in here ..._");
+      client.sendText(msg.from, "_👋 Hello! @Xyurmi in here ..._");
       client;
     } else if (msg.mimetype) {
       if (msg.caption === "!sticker" && msg.type === "image") {
